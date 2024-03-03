@@ -7,6 +7,12 @@ body{
     display: none;
 } */
 
+#logo2{
+    width: 60px;
+    height: 60px;
+    margin-right: 100%;
+    padding: 10px;
+}
 .imagen {
     width: 120px;
     height: 140px;
@@ -28,6 +34,15 @@ background-color: rgb(223, 191, 206);
     justify-content: space-around;
    
  }   
+
+ #intento{
+    border-right: 1px solid;
+    margin-left: 70%;
+ }
+
+ #intento2{
+    padding : 0 10px 0 10px
+ }
 
 
 .uk-section2{
@@ -56,7 +71,7 @@ ul{
   list-style: none;
 }
 .footer{
-  background-color: #24262b;
+  background-color: #5e364a;
     padding: 70px 0;
 }
 .footer-col{
@@ -126,4 +141,8 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
