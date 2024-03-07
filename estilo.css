@@ -1,0 +1,31 @@
+.wrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  img {
+   
+  }
+  
+  .primary {
+    position: absolute;
+  }
+  
+  .secondary {
+      background-image: url(https://asieprine.ar/wp-content/uploads/2022/10/logo_primaria-1-236x300-1.png);
+      background-position: center;
+      background-size: 100% 76%;
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 129px;
+      height: 206px;
+      top: 30%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      border-radius: 6px;
+      background-blend-mode: screen;
+      background-color: none
+      ;
+      
+  }
