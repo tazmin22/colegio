@@ -1,5 +1,5 @@
 body{
-    background-color:#e3f59b;
+    background-color:#ecfda1;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -10,12 +10,6 @@ body{
   color: #ccb2b2;
   padding-left: 45%;
 }
-
-
-
-/* ::-webkit-scrollbar {
-    display: none;
-} */
 
 #logo2{
     width: 60px;
@@ -38,11 +32,16 @@ body{
   font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px !important;
     
   }
-.uk-navbar ul li:hover a{color:  rgb(45, 102, 83)}  
+.uk-navbar ul li:hover a{color:  rgb(70, 39, 180);
+ }  
 
 
+
+ .uk-navbar-item
+{font-size: 18px !important;}
 
  .uk-navbar li{
     justify-content: space-around;
@@ -51,7 +50,7 @@ body{
     color: #24262b;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-size: 18px !important;
     
    
  }   
@@ -69,7 +68,15 @@ body{
   background-color:  rgb(45, 102, 83);
   color: #ffffff;
 }
+.boton{
+  background-color:  rgb(45, 102, 83);
+  color: #ffffff;
+}
 
+.boton:hover{
+  background-color: #d8d645;
+  color: #000000;
+}
 
  #intento{
     border-right: 1px solid;
@@ -184,6 +191,6 @@ ul{
     display: none;
 }
 
-.imagen1{
-  
+.seccion{
+  background-color: #e3f59b;
 }
