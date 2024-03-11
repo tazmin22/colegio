@@ -19,8 +19,6 @@
     </a> -->
 
     <!-- navbar -->
-
- 
     <nav class="uk-navbar-container  uk-navbar-transparent uk-text-secondary">
         <div class="uk-container uk-text-secondary">
             <div uk-navbar>
@@ -53,17 +51,14 @@
             </div>
         </div>
     </nav>
+    
+ 
  <!-- fin de navbar -->
  <!-- comienzo de banner -->
-    <header>
-        
-        <div class="imagen1 uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-animation-fade" style="background-image: url('./ultimo_logo.png');">
-            <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical uk-text-left">
-                <h1 uk-text-uppercase  uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; end: 50vh + 50%;" class=" uk-text-left">"Educar para la vida, todo un compromiso, una pasión cuyo único fin es el amor"</h1>
-                <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; end: 50vh + 50%;" ></p>
-            </div>
-        </div> 
-    </header>
+ <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="./ultimo_logo.png" uk-img>
+    <h1>Background Image</h1>
+  </div>
+
     <hr class="uk-divider-large  uk-section-default">
 <!-- fin de banner -->
 <!-- comienzo libro-->
@@ -106,11 +101,11 @@
     <div class="uk-section uk-section-medium uk-section-default">
         <div class="uk-container">
     
-            <h1 class="uk-heading-line uk-text-center  uk-padding-small uk-text-uppercase"><span>Sobre Nosotros</span></h1>
+            <h1 class="uk-heading-line uk-text-center  uk-padding-small "><span>Sobre Nosotros</span></h1>
     
             <div class="uk-grid-match uk-child-width-1-3@m" uk-grid uk-text-lowercase>
                 <div>
-                    <p class="uk-text-italic">El Colegio del Sol, una institución educativa de renombre fundada en 1981, abarca desde la educación inicial hasta el bachillerato secundario, destacándose por su excelencia y su enfoque bilingüe. Situado en Melipal, el colegio ofrece un ambiente familiar y acogedor desde su Jardín Del Sol, donde los niños comienzan su viaje educativo con propuestas innovadoras y una atención personalizada.</p>
+                    <p class="uk-section">El Colegio del Sol, una institución educativa de renombre fundada en 1981, abarca desde la educación inicial hasta el bachillerato secundario, destacándose por su excelencia y su enfoque bilingüe. Situado en Melipal, el colegio ofrece un ambiente familiar y acogedor desde su Jardín Del Sol, donde los niños comienzan su viaje educativo con propuestas innovadoras y una atención personalizada.</p>
                 </div>
                 <div>
                     <p class="uk-text-italic" > Este compromiso con la calidad educativa se refleja en su bachillerato secundario, orientado en ciencias naturales, que combina un riguroso currículo con un énfasis en el aprendizaje cooperativo y el descubrimiento de valores universales en la vida cotidiana. Además, el colegio promueve una fuerte inmersión en el idioma inglés y el trabajo interdisciplinario, preparando a los estudiantes para un mundo globalizado.</p>
@@ -125,40 +120,32 @@
 <!-- fin seccion sobre nosotros -->
 <hr class="uk-divider-xlarge">
 <!-- comienzo cards -->
-   
 
-<div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+<div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
     <div>
         <div class="uk-card uk-card-default uk-card-body">
-            
             <img src="./escuela1.jpg" alt="">
             <h3 class="uk-card-title">Fade</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Saber más</button>
-
         </div>
     </div>
     <div>
-        <div class="uk-card uk-card-default uk-card-body">
-            <img src="./inicial.jpg" alt="">
-            <h3 class="uk-card-title">Fade</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class=" uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Saber más</button>
-
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-body">
-            <img src="./colegio3.jpg" alt="">
-            <h3 class="uk-card-title">Fade</h3>
+        <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-top">
+            <h3 class="uk-card-title">Top</h3>
+            <img src="./escuela1.jpg" alt="">
+       
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Saber más</button>
-
         </div>
     </div>
     <div>
-       
-    </div>    
+        <div class="uk-card uk-card-default uk-card-body">
+            <img src="./escuela1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Saber más</button>
+        </div>
+    </div>
 </div>
 
 <!-- fin de cards -->
@@ -173,8 +160,16 @@
     <div>
         <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <h3 class="uk-card-title   uk-heading-bullet">Ubicacion</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.1398021934306!2d-71.36223512456584!3d-41.13147397133349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7a608ae14363%3A0x6ef41deb5f9a82fe!2sColegio%20del%20Sol!5e0!3m2!1ses!2sar!4v1709394747875!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        
+            <div class="map-responsive">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.1398021934306!2d-71.36223512456584!3d-41.13147397133349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7a608ae14363%3A0x6ef41deb5f9a82fe!2sColegio%20del%20Sol!5e0!3m2!1ses!2sar!4v1709394747875!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                </div>
         </div>
+
+
     </div>
     <div>
         <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
